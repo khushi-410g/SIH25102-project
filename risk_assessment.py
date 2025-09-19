@@ -5,7 +5,7 @@ def attendance_risk(attendance_percentage, threshold=75):
     Evaluate risk based on attendance.
     :param attendance_percentage: float, attendance rate in percentage
     :param threshold: int, minimum acceptable attendance percentage
-    :return: str, 'low' or 'high' risk
+    :return: str, 'low' or 'highcl' risk
     """
     if attendance_percentage < threshold:
         return 'high'
